@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;800&family=Poppins:wght@300;400;600;700&display=swap");
+body {
+  background: #1a1a1a;
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+}
+
+#body {
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+#body h1 {
+  text-align: center;
+  color: #eee;
+  font-size: 38px;
+  width: 850px;
+  line-height: 60px;
+  font-weight: 800;
+}
+#body h1 span:nth-child(2) {
+  color: aqua;
+}
+#body h1 span:nth-child(3) {
+  color: tomato;
+}
+#body p {
+  color: #777;
+  text-align: center;
+  width: 550px;
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+#body button {
+  padding: 10px 35px;
+  font-size: 15px;
+  color: #eee;
+  background: rgb(24, 181, 181);
+  border: none;
+  border-radius: 5px;
+  margin-left: 340px;
+}
+
+#perfil {
+  width: 220px;
+  height: 220px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0 0 2rem aqua);
+}
+#perfil figure {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+#perfil figure img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+.h1{
+    color: red;
+  }
+  .divMat{
+    width: 200px;
+    height: 200px;
+    background: darkblue;
+    margin-bottom: 20px;
+    display: flex;
+  }
+
+  body {
+    background: #1a1a1a;
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
