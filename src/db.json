@@ -1,0 +1,27 @@
+{
+    "dados": [
+        {
+            "id": 1,
+            "nameComida": "bolacha",
+            "quant": 5,
+            "status": true
+        },
+        {
+            "id": 1,
+            "nameComida": "bolacha",
+            "quant": 5,
+            "status": true
+        },
+        {
+            "id": 1,
+            "nameComida": "bolacha",
+            "quant": 5,
+            "status": true
+        }, {
+            "id": 1,
+            "nameComida": "bolacha",
+            "quant": 5,
+            "status": true
+        }
+    ]
+}

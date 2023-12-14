@@ -14,7 +14,7 @@
 
 ## 7 create project with Restfull GraphiSql [time:2hours]
 
-## 7 Card frhases ... [time:30ai40min]
+## 7 Card frhases ... [time:30ai40min]  -- feito v
 
 ## 8 create logic  hooks dinamic for calendarsModals  [time:2hours]  -- feito v
 

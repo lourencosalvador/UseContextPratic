@@ -1,0 +1,33 @@
+ 
+    let lastScrollTop = 0;
+    const [scrollSpeed, setScrollSpeed] = useState(0);
+    const [scrolling, setScrolling] = useState(false);
+  
+    useEffect(() => {
+      const handleScroll = (event) => {
+        const scrollTop = window.scrollY || document.documentElement.scrollTop;
+        setScrollSpeed(scrollTop - lastScrollTop);
+        lastScrollTop = scrollTop;
+  
+        console.log('Velocidade do scroll:', scrollSpeed);
+        if (scrollSpeed >= 26 && !scrolling) {
+          setScrolling(true);
+          const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+          document.body.classList.add('no-scroll');
+          window.scrollTo({
+            top: scrollPosition,
+            behavior: 'smooth'
+          });
+          setTimeout(() => {
+            setScrolling(false);
+            document.body.classList.remove('no-scroll');
+          }, 1000);
+        }
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, [scrollSpeed, scrolling])
